@@ -1,9 +1,18 @@
 <div class="container">
-  <h3>App Component</h3>
-  <button class="btn btn-primary">Start</button>
-
-  <hr />
-
-  <input type="text" class="form-control" [(ngModel)]="title" />
-  <h2>{{ title }}</h2>
+  <div class="row">
+    <div class="col-xs-12">
+      <h3>I am in the AppComponent!</h3>
+      <hr />
+      <app-servers></app-servers>
+      <hr />
+      <app-warning></app-warning>
+      <app-alert></app-alert>
+      <hr />
+      <app-test0></app-test0>
+      <hr />
+      <div app-test1></div>
+      <hr />
+      <div class="app-test2"></div>
+    </div>
+  </div>
 </div>
